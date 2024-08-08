@@ -21,7 +21,8 @@ public class ImplcitiwaitConcept {
 		  driver=new ChromeDriver();
 		  driver.manage().window().maximize();
 		  //global wait mechanism or implicit wait mechanism
-		  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+//		  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+//		  driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
 	
 	 }
 	 @BeforeMethod
