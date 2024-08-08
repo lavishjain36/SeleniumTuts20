@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.seleniumfundamental.formwebelement.SelectRadioButton">
+      <class name="com.seleniumfundamental.wait.WebDriverwaitConcept">
         <methods>
-          <include name="radioButton"/>
+          <include name="openUrl"/>
           <include name="startChromeBrowser"/>
+          <include name="explicitWait"/>
           <include name="closeChromeBrowser"/>
         </methods>
-      </class> <!-- com.seleniumfundamental.formwebelement.SelectRadioButton -->
+      </class> <!-- com.seleniumfundamental.wait.WebDriverwaitConcept -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

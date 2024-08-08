@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-05T12:53:25 IST" name="Default suite" finished-at="2024-08-05T12:53:29 IST" duration-ms="4487">
+  <suite started-at="2024-08-08T11:48:01 IST" name="Default suite" finished-at="2024-08-08T11:48:34 IST" duration-ms="32629">
     <groups>
     </groups>
-    <test started-at="2024-08-05T12:53:25 IST" name="Default test" finished-at="2024-08-05T12:53:29 IST" duration-ms="4487">
-      <class name="com.seleniumfundamental.webtable.TableHeading">
-        <test-method is-config="true" signature="startChromeBrowser()[pri:0, instance:com.seleniumfundamental.webtable.TableHeading@2b71e916]" started-at="2024-08-05T12:53:23 IST" name="startChromeBrowser" finished-at="2024-08-05T12:53:25 IST" duration-ms="1719" status="PASS">
+    <test started-at="2024-08-08T11:48:01 IST" name="Default test" finished-at="2024-08-08T11:48:34 IST" duration-ms="32629">
+      <class name="com.seleniumfundamental.wait.FluentwaitConcept">
+        <test-method is-config="true" signature="startChromeBrowser()[pri:0, instance:com.seleniumfundamental.wait.FluentwaitConcept@5bf0d49]" started-at="2024-08-08T11:48:00 IST" name="startChromeBrowser" finished-at="2024-08-08T11:48:01 IST" duration-ms="1567" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startChromeBrowser -->
-        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.seleniumfundamental.webtable.TableHeading@2b71e916]" started-at="2024-08-05T12:53:25 IST" name="openUrl" finished-at="2024-08-05T12:53:29 IST" duration-ms="4338" status="PASS">
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.seleniumfundamental.wait.FluentwaitConcept@5bf0d49]" started-at="2024-08-08T11:48:02 IST" name="openUrl" finished-at="2024-08-08T11:48:30 IST" duration-ms="28451" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openUrl -->
-        <test-method signature="testnumberofrowsandcolumns()[pri:0, instance:com.seleniumfundamental.webtable.TableHeading@2b71e916]" started-at="2024-08-05T12:53:29 IST" name="testnumberofrowsandcolumns" finished-at="2024-08-05T12:53:29 IST" duration-ms="101" status="PASS">
+        <test-method signature="fluentwait()[pri:0, instance:com.seleniumfundamental.wait.FluentwaitConcept@5bf0d49]" started-at="2024-08-08T11:48:30 IST" name="fluentwait" finished-at="2024-08-08T11:48:34 IST" duration-ms="4112" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testnumberofrowsandcolumns -->
-        <test-method is-config="true" signature="closeChromeBrowser()[pri:0, instance:com.seleniumfundamental.webtable.TableHeading@2b71e916]" started-at="2024-08-05T12:53:29 IST" name="closeChromeBrowser" finished-at="2024-08-05T12:53:30 IST" duration-ms="168" status="PASS">
+        </test-method> <!-- fluentwait -->
+        <test-method is-config="true" signature="closeChromeBrowser()[pri:0, instance:com.seleniumfundamental.wait.FluentwaitConcept@5bf0d49]" started-at="2024-08-08T11:48:34 IST" name="closeChromeBrowser" finished-at="2024-08-08T11:48:34 IST" duration-ms="293" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeChromeBrowser -->
-      </class> <!-- com.seleniumfundamental.webtable.TableHeading -->
+      </class> <!-- com.seleniumfundamental.wait.FluentwaitConcept -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
